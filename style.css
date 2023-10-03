@@ -1,0 +1,37 @@
+*{
+    padding: 0; /* padding is the space INSIDE an element */
+    margin: 0; /* margin is the space OUTSIDE an element */
+    background-color: #be95c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #231942;
+}
+
+/* center the button and text in the middle of the page */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* vh is the viewport's height (aka full height of the screen) */
+    margin: 0;
+}
+
+/* call button class */
+/* style the button */
+.imageButton{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    margin: 10px;
+}
+
+/* from the button style the img */
+.imageButton img{
+    display: block;
+    width: 200px;
+    height: auto;  /* maintain aspect ratio */
+}
